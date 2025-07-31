@@ -6,13 +6,22 @@ Use it to route `curl`, `wget`, or anything else terminal through Tor just like 
 ![logo](/assets/logo.png)
 ---
 
-Add the torify.exe binary to your system path.
+Execute the main torify.exe binary or build your own from scratch.
+This project already includes the binary for Tor Windows x86_64 but you can grab others at the [official Tor website](https://www.torproject.org/download/tor).
+
+
+After cloning or building the rust program, add the torify.exe binary to your system path to run it anywhere in your terminal.
 
 - `torify start` — Launches a background Tor proxy (`tor.exe`)  
 - `torify stop` — Gracefully stops the Tor process  
 - `torify <command>` — Runs any command with SOCKS5 routing through Tor  
 
 ---
+
+## Building
+1. Clone the project
+2. Build with: `cargo build --release`
+3. Add "tor.exe" to the same folder of your built binary 
 
 ## Usage
 
