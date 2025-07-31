@@ -7,7 +7,7 @@ Use it to route `curl`, `wget`, or anything else terminal through Tor just like 
 ---
 
 Execute the main torify.exe binary or build your own from scratch.
-This project already includes the binary for Tor Windows x86_64 but you can grab others at the [official Tor website](https://www.torproject.org/download/tor). You may also choose between tunning the torify binary included or build one yourself. Building instructions below.
+This project already includes the binary for Tor Windows x86_64 but you can grab others at the [official Tor website](https://www.torproject.org/download/tor). You may also choose between running the pre-built torify binary included or build one yourself. Building instructions below.
 
 
 After cloning or building the rust program, add the torify.exe binary to your system path to run it anywhere in your terminal.
