@@ -1,8 +1,9 @@
-#Torify For The Windows Terminal
+# Torify For The Windows Terminal
 
 A rust wrapper to "torify" any command line tool on Windows.  
 Use it to route `curl`, `wget`, or anything else terminal through Tor just like Linux's `torify`.
 
+[logo](/assets/logo.png)
 ---
 
 Add the torify.exe binary to your system path.
